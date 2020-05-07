@@ -5,8 +5,8 @@ A simple Telegram bot allowing to search for active Twitch streams, written in J
 Screenshots
 -----------
 
-![](screen_help.png){:width="600px"}
-![](screen_all.png)
-![](screen_params.png)
-![](screen_user.png)
-![](screen_next.png)
+<img src="screen_help.png" alt="" width="400">
+<img src="screen_all.png" alt="" width="400">
+<img src="screen_params.png" alt="" width="400">
+<img src="screen_user.png" alt="" width="400">
+<img src="screen_next.png" alt="" width="400">
