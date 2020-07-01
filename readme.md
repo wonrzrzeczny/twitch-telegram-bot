@@ -10,3 +10,4 @@ Screenshots
 <img src="screen_params.png" alt="" width="400">
 <img src="screen_user.png" alt="" width="400">
 <img src="screen_next.png" alt="" width="400">
+<img src="screen_follow.png" alt="" width="400">
