@@ -48,6 +48,15 @@ public class TTBCommandProcessor implements Processor{
 			
 			return;
 		}
+		else if (body.startsWith("?follow ") || body.startsWith("?unfollow ")) {
+			
+			int separator = body.indexOf(' ');
+			exchange.setProperty("type", "webhook");
+			exchange.setProperty("status", body.startsWith("?follow") ? "follow" : "unfollow");
+			exchange.setProperty("user", body.substring(separator + 1).trim());
+			
+			return;
+		}
 		
 		List<String> data = Arrays.asList(body.substring(1).split("\\?"));
 		exchange.setProperty("type", "search");

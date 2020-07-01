@@ -9,6 +9,7 @@ import org.json.simple.parser.JSONParser;
 import java.lang.Character;
 
 // Parses helix/streams response (provided in "streamsResponseBody" property) and builds response chat message
+// Used in stream searching route
 public class TTBChatResponseBuilder implements Processor {
 
 	@Override
